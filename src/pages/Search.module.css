@@ -1,0 +1,58 @@
+.searchForm {
+    background-color: white;
+    width: 35vw;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 1.5rem;
+    box-shadow: var(--lightShadow);
+    border-radius: 6px;
+  }
+
+  .form  label {
+    display: block;
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+  }
+
+  .form input {
+    width: 90%;
+    padding: 0.2rem;
+    border: 1px solid rgb(194, 194, 194);
+  }
+
+
+  /* Searched users */
+  .searchedUsers {
+    margin-top: 3rem;
+    text-align: center;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  .searchedUsersCenter {
+    /* width: 95vw; */
+    margin: 0 auto;
+    display: grid;  
+    grid-gap: 2rem;    
+    height: auto;
+  }
+
+  
+  @media screen and (min-width: 576px) {
+    .searchedUsersCenter {
+      grid-template-columns: repeat(auto-fill, minmax(108.8px, 1fr));
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .searchForm {
+        width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .searchForm {
+        width: 100%;
+    }
+  }

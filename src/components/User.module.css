@@ -1,0 +1,137 @@
+.user {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;  
+    height: 520px;  
+}
+
+.user img {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+}
+
+.user h3, .user h5 {
+    color: #777;
+}
+
+.user h3 {
+    text-align: center;
+}
+
+.user h3, .user p {
+    margin-bottom: 5px;
+}
+
+.user p {
+    font-size: 12px;
+}
+
+
+/* --- Left column --- */
+.leftSide {
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;    
+    box-shadow: 0 29px 38px -6px #222;
+    width: 330px;
+    text-align: center;
+}
+
+.locationInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.locationInfo > p {
+    color: #777;
+}
+
+.followItems {
+    margin-top: 1.5rem;
+}
+
+
+.button {
+    background-color: #f1c574;
+    border: none;
+    color: white;
+    padding: 0.3rem 4.5rem;
+    border-radius: 26px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 2rem;        
+}
+
+.button:hover {
+    background-color: #ffd483; 
+    transition: .2s all;
+}
+
+.leftSide ul {
+    margin-top: 1rem;
+}
+
+.leftSide ul li {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/* --- Right column --- */
+
+.rightSide {
+    height: 100%;
+    width: 380px;
+    overflow: hidden;
+}
+
+.rightSide > div {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    border-radius: 12px;
+    box-shadow: 0 29px 38px -6px #222;
+}
+
+.rightSide h4 {
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .user {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 825px) {
+    .user {
+      display: block;
+    }
+    .leftSide {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .rightSide {
+        margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .leftSide {
+        width: 100%;
+    } 
+    .rightSide {
+        width: 100%;
+    }
+  }

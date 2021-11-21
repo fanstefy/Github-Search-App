@@ -1,0 +1,11 @@
+.gist {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: .7rem;
+}
+
+.gist div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

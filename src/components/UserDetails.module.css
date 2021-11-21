@@ -1,0 +1,9 @@
+.userDetails button {
+    background-color: #f1c574;    
+    top: 100px;
+    position: absolute;
+    border: none;
+    color: white;
+    padding: .2rem .7rem;
+    cursor: pointer;        ;
+}

@@ -1,0 +1,22 @@
+.activity {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: .7rem;
+}
+
+.activity div:first-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: .5rem;
+}
+
+.activity img {
+    width: 40px;
+    height: auto;
+}

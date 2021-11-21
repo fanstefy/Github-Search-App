@@ -1,0 +1,25 @@
+.searchedUser {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 6px;
+    box-shadow: 0 7px 12px -6px #222;
+}
+
+.searchedUser img {
+    /* border: 2px solid #f1c574; */    
+    border-radius: 50%;    
+}
+
+.searchedUser p {
+    margin-bottom: .5rem;
+}
+
+.searchedUser button {
+    background-color: #f1c574;
+    color: white;
+    padding: .1rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,25 @@
+.repo {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: .7rem;
+}
+
+.repoSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .7rem;
+}
+
+.repoSection div {
+    display: flex;
+    align-items: center;
+}
+
+.repoSection div:last-child p {
+    margin-left: 5px;
+}
+
+.repo a:hover {
+    color: #f1c574;
+    transition: .2s all;
+}
