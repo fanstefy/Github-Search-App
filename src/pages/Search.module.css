@@ -1,11 +1,11 @@
 .searchForm {
-    background-color: white;
-    width: 35vw;
-    margin: 0 auto;
-    margin-top: 4rem;
-    padding: 1.5rem;
-    box-shadow: var(--lightShadow);
-    border-radius: 6px;
+  background-color: white;
+  width: 35vw;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 1.5rem;
+  box-shadow: 0 7px 12px -6px #222;
+  border-radius: 12px;
   }
 
   .form  label {

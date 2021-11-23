@@ -11,7 +11,7 @@ export const Gist = (props) => {
             <div>
                 <p>Created at: {gist.created_at}</p>
                 <div>
-                    <BiGitRepoForked color={'#f1c574'} />
+                    <BiGitRepoForked color={'#2181f7'} />
                     <a href={gist.html_url} target="_blank" rel="noreferrer">link</a>
                 </div>
             </div>

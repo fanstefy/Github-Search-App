@@ -4,9 +4,11 @@
 }
 
 .tabPanel {
-    padding: 20px;
-    border: 1px solid gray;
-    max-width: 800px;
+        /* padding: 20px; */
+    /* max-width: 800px; */
+    overflow-y: scroll;
+    height: calc(100% - 53px);
+    padding: 12px;
 }
 
 .tabsList {
@@ -19,14 +21,19 @@
 .tabItem {
     display: inline-block;
     padding: 10px 20px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     margin-right: 5px;
-    background: gray;			
-    color: lightgray;
-    cursor: pointer;    
+    background: lightgray;
+    /* color: lightgray; */
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 600;   
 }
 
 .tabItem.active {
     background: #FFF;
-    color: #000;				
+    color: #000;
+    border: 1px solid #d3d3d3;				
 }
+
+

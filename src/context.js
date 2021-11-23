@@ -26,16 +26,32 @@ const AppProvider = ({ children }) => {
             const gistsApi = `https://api.github.com/users/${userName}/gists`;
             const activityApi = `https://api.github.com/users/${userName}/received_events`;
 
-            const result1 = await fetch(userApi, { headers: { Authorization: `token ${token}` } })
+            const headers = {
+                "Authorization": `token ${token}`
+            }
+
+            const result1 = await fetch(userApi, {
+                "method": "GET",
+                "headers": headers
+            })
             const userData1 = await result1.json();
 
-            const result2 = await fetch(reposApi, { headers: { Authorization: `token ${token}` } })
+            const result2 = await fetch(reposApi, {
+                "method": "GET",
+                "headers": headers
+            })
             const repos = await result2.json();
 
-            const result3 = await fetch(gistsApi, { headers: { Authorization: `token ${token}` } })
+            const result3 = await fetch(gistsApi, {
+                "method": "GET",
+                "headers": headers
+            })
             const gists = await result3.json();
 
-            const result4 = await fetch(activityApi, { headers: { Authorization: `token ${token}` } })
+            const result4 = await fetch(activityApi, {
+                "method": "GET",
+                "headers": headers
+            })
             const activities = await result4.json();
 
             setUserData({
@@ -57,8 +73,14 @@ const AppProvider = ({ children }) => {
 
     const searchUser = async () => {
         try {
+            const headers = {
+                "Authorization": `token ${token}`
+            }
             const searchApi = `https://api.github.com/search/users?q=${searchUserName}`;
-            const result = await fetch(searchApi, { headers: { Authorization: `token ${token}` } })
+            const result = await fetch(searchApi, {
+                "method": "GET",
+                "headers": headers
+            })
             const users = await result.json();
 
             setSearchedUsersList(users.items);            

@@ -1,9 +1,10 @@
 .navbar {
-    padding: .5rem;
-    background-color: #f1c574;
-    color: white;
-    box-shadow: 0 14px 20px -6px #222;
-    margin: 0 auto;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  color: #000;
+  box-shadow: 0 14px 20px -6px #2222228f;
+  margin: 0 auto;
+  border-radius: 10px;
   }
   .navCenter {
     display: flex;

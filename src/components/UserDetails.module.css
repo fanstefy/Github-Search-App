@@ -1,9 +1,10 @@
 .userDetails button {
-    background-color: #f1c574;    
+    background-color: #2181f7;    
     top: 100px;
     position: absolute;
     border: none;
     color: white;
     padding: .2rem .7rem;
-    cursor: pointer;        ;
+    cursor: pointer;     
+    border-radius: 6px   ;
 }

@@ -22,7 +22,7 @@ export const Repo = (props) => {
             <div className={classes.repoSection}>
                 <p>Language: {repo.language}</p>
                 <div>
-                    <MdVisibility color={'#f1c574'} size={13} />
+                    <MdVisibility color={'#2181f7'} size={13} />
                     <p>{repo.visibility}</p>
                 </div>
             </div>
