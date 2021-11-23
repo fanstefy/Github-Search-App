@@ -27,7 +27,7 @@
     margin-top: 3rem;
     text-align: center;
     max-height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .searchedUsersCenter {

@@ -5,7 +5,7 @@
 }
 
 .background-opacity {
-  background-color: #c1d9eb;
+  /* background-color: #c1d9eb;
     position: absolute;
     left: 0;
     right: 0;
@@ -13,11 +13,17 @@
     height: 100%;
     top: 0;
     opacity: .8;
-    z-index: -100;
+    z-index: -100; */
 }
 
 @media screen and (max-width: 1100px) {
   .App {
     width: 94vw;
   }
+}
+
+/* scroll div */
+.scroll {
+  overflow-y: scroll;
+  padding: 0px 20px;
 }

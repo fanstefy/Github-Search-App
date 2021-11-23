@@ -12,7 +12,7 @@ const AppProvider = ({ children }) => {
     const [listOfRepos, setListOfRepos] = useState([]);
     const [listOfGists, setListOfGists] = useState([]);
     const [listOfActivities, setListOfActivities] = useState([]);
-    const [userName, setUserName] = useState('ivanJov');
+    const [userName, setUserName] = useState('defvol');
     const [loading, setLoading] = useState(false);
     const [searchUserName, setSearchUserName] = useState('');
     const [searchedUsersList, setSearchedUsersList] = useState([]);

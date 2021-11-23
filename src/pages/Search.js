@@ -6,9 +6,22 @@ import classes from './Search.module.css';
 export const Search = () => {
     const { setSearchUserName, searchedUsersList } = useGlobalContext();
 
+    // const [currentPage, setCurrentPage] = useState(1);
+    // const [postsPerPage, setPostsPerPage] = useState(8);
+
     const handleSubmit = (e) => {
         e.preventDefault();
     }
+
+
+    // get current posts
+    // const indexOfLastPost = currentPage * postsPerPage;
+    // const indexOfFirstPost = indexOfLastPost - postsPerPage;
+    // if (searchedUsersList) {   
+    //     const currentPosts = searchedUsersList.slice(indexOfFirstPost, indexOfLastPost);
+    // }
+
+
 
     return (
         <>

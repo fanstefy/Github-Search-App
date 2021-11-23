@@ -7,21 +7,21 @@ import { UserDetails } from './components/UserDetails';
 
 function App() {
 
-  return (
-    <div className="App">
-    <Router>
-      <div className="background-opacity"></div>
-      <Navbar />
-      <Routes>
-        <Route exact path='/' element={<Home/>}>
-        </Route>
-        <Route path='/Search' element={<Search/>}>        
-        </Route>
-        <Route path='/UserDetails' element={<UserDetails/>}>        
-        </Route>
-        </Routes>
-    </Router>
-    </div>
+  return (    
+      <div className="App">
+        <Router>
+          <div className="background-opacity"></div>
+          <Navbar />
+          <Routes>
+            <Route exact path='/' element={<Home />}>
+            </Route>
+            <Route path='/Search' element={<Search />}>
+            </Route>
+            <Route path='/UserDetails' element={<UserDetails />}>
+            </Route>
+          </Routes>
+        </Router>
+      </div>
   );
 }
 

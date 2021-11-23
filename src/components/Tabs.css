@@ -28,6 +28,7 @@
     cursor: pointer;
     border-radius: 50px;
     font-weight: 600;   
+    margin-bottom: .3rem;
 }
 
 .tabItem.active {

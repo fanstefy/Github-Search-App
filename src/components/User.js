@@ -13,7 +13,7 @@ export const User = () => {
     useEffect(() => {
         const pathname = window.location.pathname;
         if (initialUser === false && pathname === '/') {
-            setUserName('ivanJov');            
+            setUserName('defvol');            
         }
     }, [initialUser, setUserName]);
 
@@ -47,6 +47,7 @@ export const User = () => {
         html_url } = data;
 
 
+
     return (
         <>
             {userData &&
@@ -54,7 +55,10 @@ export const User = () => {
                     <div className={classes.leftSide}>
                         <img src={avatar_url} alt="user" />
                         <h3>{name}</h3>
-                        <p>{bio}</p>
+                        <p><span style={{
+                            'fontWeight': 'bold',
+                            'color': '#777'
+                        }}>Bio: </span> {bio}</p>
                         <div className={classes.locationInfo}>
                             <p><IoLocationSharp />{location}</p>
                             <div>
